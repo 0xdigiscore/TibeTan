@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_clip_left2"
+        android:layout_height="@dimen/tiben_btn_height_top"
+        android:layout_width="@dimen/tiben_btn_width_top"
+        android:background="@drawable/tiben_left_btn_selector"
+        android:layout_marginLeft="66dp"
+        android:text="清除" />
+    <Button
+        android:id="@+id/btn_bottom1"
+        android:layout_height="@dimen/tiben_btn_height_top"
+        android:layout_width="@dimen/tiben_btn_width_top"
+        android:background="@drawable/tiben_down_btn_selector"
+        android:layout_toRightOf="@id/btn_clip_left2"
+        android:layout_marginLeft="0.5dp"
+        android:paddingTop="0dp"
+        />
+    <Button
+        android:id="@+id/btn_clip_right2"
+        android:layout_height="@dimen/tiben_btn_height_top"
+        android:layout_width="@dimen/tiben_btn_width_top"
+        android:background="@drawable/tiben_down_btn_selector"
+        android:layout_toRightOf="@id/btn_bottom1"
+        android:layout_marginLeft="0.5dp"
+        android:paddingTop="0dp"
+        android:text="清除" />
+    <Button
+        android:id="@+id/btn_bottom2"
+        android:layout_height="@dimen/tiben_btn_height_top"
+        android:layout_width="@dimen/tiben_btn_width_top"
+        android:layout_below="@id/btn_clip_left2"
+        android:background="@drawable/tiben_down_btn_selector"
+        android:paddingTop="0dp"
+        android:layout_alignLeft="@id/btn_bottom1"
+
+        android:layout_marginTop="0.5dip"
+        />
+    <Button
+        android:id="@+id/btn_bottom3"
+        android:layout_height="@dimen/tiben_btn_height_top"
+        android:layout_width="@dimen/tiben_btn_width_top"
+        android:layout_below="@id/btn_bottom2"
+        android:background="@drawable/tiben_down_btn_selector"
+        android:paddingTop="0dp"
+        android:layout_marginTop="0.5dp"
+        android:layout_alignRight="@id/btn_bottom1"
+        />
+</RelativeLayout>

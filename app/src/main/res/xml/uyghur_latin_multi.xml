@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="10.000002%p" 
+    android:keyHeight="67dp"
+    android:horizontalGap="2.0px"
+    android:verticalGap="2.0px"
+
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="20.000004%p" android:codes="10" android:keyEdgeFlags="right" android:keyIcon="@drawable/hw_backspace" />
+        <Key android:keyWidth="20.000004%p" android:codes="10" android:keyEdgeFlags="right" android:keyIcon="@drawable/hw_space" />
+        <Key android:keyWidth="20.000004%p" android:codes="10" android:keyEdgeFlags="right" android:keyIcon="@drawable/hw_enter" />
+        <Key android:keyWidth="20.000004%p" android:codes="10" android:keyEdgeFlags="right" android:keyIcon="@drawable/sym_keyboard_return" />
+        <Key android:keyWidth="20.000004%p" android:codes="10" android:keyEdgeFlags="right" android:keyIcon="@drawable/sym_keyboard_return" />
+
+    </Row>
+</Keyboard>
