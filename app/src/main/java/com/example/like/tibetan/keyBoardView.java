@@ -28,6 +28,7 @@ public class keyBoardView extends ViewGroup {
          int sizeHeight=MeasureSpec.getSize(heightMeasureSpec);
          //计算出所有childView的宽和高
 
+
         
     }
     @Override
